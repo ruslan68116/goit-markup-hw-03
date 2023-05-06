@@ -1,0 +1,292 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --accent-color: #404bbf;
+  --studio-color: #2e2f42;
+  --studio-color-second: #f4f4fd;
+  /* #434455 */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* navigation */
+
+.page-header {
+  background: #ffffff;
+}
+
+.logo-first {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.color {
+  color: var(--studio-color);
+}
+
+/* hover-nav */
+.nav-name:hover,
+.nav-name:focus {
+  color: var(--accent-color);
+}
+
+.nav-name {
+  width: 67px;
+  height: 24px;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-nav-adr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.adr {
+  font-style: normal;
+}
+
+.header-nav-adr:hover,
+.header-nav-adr:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.hero-btn-order {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.hero-btn-order:hover,
+.hero-btn-order:focus {
+  background: #4d5ae5;
+  background-color: #404bbf;
+}
+
+/* section1 */
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* section2 */
+
+.presentation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* section3 */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team {
+  background: #f4f4fd;
+}
+
+.team-member-container {
+  background: #ffffff;
+}
+
+.name-member-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.profession-member-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+
+.logo-in-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio-color-second {
+  color: var(--studio-color-second);
+}
+
+.marketing-footer {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.footer-conteiner {
+  background: #2e2f42;
+}
+
+/* page portfolio */
+
+.name-btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+
+.name-btn-portfolio:hover,
+.name-btn-portfolio:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+.portfolio-container {
+  background: #ffffff;
+}
+
+.main-portfolio {
+}
+
+.development-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.type-work {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/////////////////////////* components */
+
+.container {
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 76px;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  column-gap: 40px;
+}
+
+.adr {
+}
+
+.adr-list {
+  display: flex;
+  margin-left: auto;
+  column-gap: 40px;
+}
+.header-nav-adr {
+}
