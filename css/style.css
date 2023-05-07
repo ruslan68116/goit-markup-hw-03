@@ -349,6 +349,10 @@ img {
 /* page portfolio */
 /* page portfolio */
 
+.main-btn-list-portfolio {
+  padding: 96px 0 120px;
+}
+
 .portfolio-nav {
   display: flex;
   justify-content: center;
