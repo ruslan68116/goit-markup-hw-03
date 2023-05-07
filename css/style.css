@@ -272,8 +272,7 @@ img {
 }
 .team {
   background: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -281,12 +280,12 @@ img {
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-member-container {
   background: #ffffff;
-
+  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% -72px) / 4);
 }
 
@@ -309,8 +308,8 @@ img {
 .name-team-text {
   border: 1px solid transparent;
   border-top: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
+  padding: 32px 16px;
 }
 
 /* footer */
