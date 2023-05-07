@@ -384,8 +384,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-top: 72px;
-  column-gap: 24px;
+  gap: 24px;
   row-gap: 48px;
+  margin-bottom: 72px;
 }
 
 .portfolio-container {
