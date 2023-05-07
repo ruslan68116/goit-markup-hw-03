@@ -216,7 +216,7 @@ img {
 .feature-list {
   display: flex;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .feature-description {
