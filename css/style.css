@@ -205,12 +205,17 @@ img {
   padding: 120px 0;
 }
 
+.feature-list-text {
+  width: calc((100% - 72px) / 4);
+}
+
 .feature-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .feature-list {
@@ -228,8 +233,8 @@ img {
 /* section2 */
 
 .presentation {
-  padding-top: 120px;
   outline: 1px solid tomato;
+  padding-bottom: 120px;
 }
 
 .presentation-title {
@@ -240,17 +245,18 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .presentation-list {
   display: flex;
   padding-top: 72px;
   padding-bottom: 120px;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .presentation-list-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /* section3 */
