@@ -201,8 +201,8 @@ img {
 /* section1 */
 
 .feature {
-  padding-top: 120px;
   outline: 1px solid tomato;
+  padding: 120px 0;
 }
 
 .feature-title {
