@@ -26,38 +26,40 @@
       <!--page header-->
 
       <!--navigation-->
-      <nav>
-        <a class="logo-first logo link list" href="./index.html">
-          WEB<span class="color">Studio</span>
-        </a>
-        <ul class="nav-header list">
-          <li><a class="link nav-name" href="./index.html">Studio</a></li>
-          <li>
-            <a class="link nav-name" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="link nav-name" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <!--address-->
-      <address class="adr">
-        <ul class="list">
-          <li class="list">
-            <a class="link header-nav-adr" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="list">
-            <a class="link header-nav-adr" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a class="logo-first logo link list" href="./index.html">
+            WEB<span class="color">Studio</span>
+          </a>
+          <ul class="nav-header list">
+            <li><a class="link nav-name" href="./index.html">Studio</a></li>
+            <li>
+              <a class="link nav-name" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="link nav-name" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <!--address-->
+        <address class="adr">
+          <ul class="adr-list list">
+            <li class="list">
+              <a class="link header-nav-adr" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list">
+              <a class="link header-nav-adr" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main class="main-portfolio">
-      <section class="">
+      <section class="container">
         <h1 hidden>Portfolio</h1>
-        <ul class="list">
+        <ul class="portfolio-nav list">
           <li>
             <button class="name-btn-portfolio" type="button">All</button>
           </li>
@@ -76,7 +78,7 @@
         </ul>
         <!-- portfolio presentation -->
 
-        <ul class="list">
+        <ul class="portfolio-list list">
           <li class="portfolio-container">
             <a class="link" href="">
               <img
@@ -85,8 +87,10 @@
                 width="360"
                 height="300"
               />
-              <h2 class="development-name">Banking App Interface Concept</h2>
-              <p class="type-work">App</p>
+              <div class="portfolio-list-text">
+                <h2 class="development-name">Banking App Interface Concept</h2>
+                <p class="type-work">App</p>
+              </div>
             </a>
           </li>
 
@@ -141,6 +145,7 @@
               <p class="type-work">Design</p>
             </a>
           </li>
+
           <li class="portfolio-container">
             <a class="link" href="">
               <img
@@ -166,6 +171,7 @@
               <p class="type-work">Design</p>
             </a>
           </li>
+
           <li class="portfolio-container">
             <a class="link" href="">
               <img
@@ -178,6 +184,7 @@
               <p class="type-work">Web Site</p>
             </a>
           </li>
+
           <li class="portfolio-container">
             <a class="link" href="">
               <img
@@ -195,7 +202,7 @@
     </main>
 
     <!--footer-->
-    <footer class="footer-conteiner">
+    <footer class="container footer-conteiner">
       <a class="logo-in-footer link" href="./index.html">
         WEB<span class="studio-color-second">Studio</span>
       </a>

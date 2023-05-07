@@ -267,18 +267,19 @@ img {
 
 .team {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  flex-basis: auto;
   column-gap: 24px;
 }
 
 .team-member-container {
   background: #ffffff;
+
   flex-basis: calc((100% -72px) / 4);
 }
 
@@ -288,11 +289,21 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .profession-member-team {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.name-team-text {
+  border: 1px solid transparent;
+  border-top: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* footer */
@@ -306,6 +317,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-left: 156px;
 }
 
 .studio-color-second {
@@ -315,17 +327,27 @@ img {
 .marketing-footer {
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-left: 156px;
 }
 .footer-conteiner {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* page portfolio */
 /* page portfolio */
 /* page portfolio */
+
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  padding-top: 96px;
+}
 
 .name-btn-portfolio {
   font-weight: 500;
@@ -334,6 +356,7 @@ img {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: #f4f4fd;
+  padding: 12px 24px;
 }
 
 .name-btn-portfolio:hover,
@@ -341,13 +364,19 @@ img {
   color: #ffffff;
   background: #404bbf;
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 72px;
+}
+
 .portfolio-container {
   background: #ffffff;
 }
 
-.main-portfolio {
+.portfolio-list > .portfolio-container {
 }
-
 .development-name {
   font-weight: 500;
   font-size: 20px;
@@ -361,7 +390,10 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.portfolio-list-text {
+  padding: 32px;
+  outline: 1px solid tomato;
+}
 /* page portfolio */
 /* page portfolio */
 /* page portfolio */
