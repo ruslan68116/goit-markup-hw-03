@@ -356,9 +356,10 @@ img {
 .portfolio-nav {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+
   padding-top: 96px;
-  column-gap: 24px;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .name-btn-portfolio {
@@ -410,6 +411,7 @@ img {
 .portfolio-list-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* page portfolio */
 /* page portfolio */
