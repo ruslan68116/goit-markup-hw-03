@@ -321,6 +321,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-left: 156px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studio-color-second {
@@ -337,8 +339,7 @@ img {
 }
 .footer-conteiner {
   background: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 /* page portfolio */
