@@ -76,7 +76,6 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
-  column-gap: 76px;
 }
 
 .page-header-container {
@@ -170,6 +169,7 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .hero-btn-order {
@@ -189,7 +189,7 @@ img {
   border: none;
   border-radius: 4px;
   display: block;
-  margin: 48px auto;
+  margin: 48px auto 0;
 }
 
 .hero-btn-order:hover,
@@ -250,8 +250,7 @@ img {
 
 .presentation-list {
   display: flex;
-  padding-top: 72px;
-  padding-bottom: 120px;
+
   gap: 24px;
 }
 
@@ -323,7 +322,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-left: 156px;
+
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -338,7 +337,6 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-left: 156px;
 }
 .footer-conteiner {
   background: #2e2f42;
@@ -357,7 +355,6 @@ img {
   display: flex;
   justify-content: center;
 
-  padding-top: 96px;
   gap: 24px;
   margin-bottom: 72px;
 }
@@ -384,10 +381,9 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 72px;
+
   gap: 24px;
   row-gap: 48px;
-  margin-bottom: 72px;
 }
 
 .portfolio-container {
